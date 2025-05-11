@@ -13,8 +13,8 @@ export default function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
             <li className="nav-item"><a className="nav-link" href="#menu">Menu</a></li>
             <li className="nav-item"><a className="nav-link" href="#gallery">Gallery</a></li>
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
           </ul>
         </div>
       </div>
