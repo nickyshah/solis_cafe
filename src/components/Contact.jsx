@@ -7,7 +7,7 @@ export default function Contact() {
         <h2 className="text-center mb-4">Contact Us</h2>
         <form className="mx-auto" style={{ maxWidth: '500px' }}>
           <div className="mb-3">
-            <input type="text" className="form-control" placeholder="Your Name" required />
+            <input type="text" className="form-control" placeholder="Your Full Name" required />
           </div>
           <div className="mb-3">
             <input type="email" className="form-control" placeholder="Your Email" required />
