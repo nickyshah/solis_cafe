@@ -4,7 +4,11 @@ export default function Menu() {
   const [activeTab, setActiveTab] = useState("coffee");
 
   return (
-    <section className="menu-section p-5 bg-gray mb-4" id="menu">
+    <section
+      className="menu-section p-5 bg-transparent mb-4 "
+      id="menu"
+      style={{ minHeight: "100vh" }}
+    >
       <div className="container text-center " id="menu1">
         {/* Toggle Buttons */}
         <div className="btn-group mb-4">
@@ -33,7 +37,7 @@ export default function Menu() {
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div className="row fw-bold border-bottom pb-2 mb-2">
                   <div className="col-8">
-                    <h4>Coffee</h4>
+                    <h4 className="mb-0">Coffee</h4>
                   </div>
                   <div className="col-2 text-center">Sml</div>
                   <div className="col-2 text-center">Lrg</div>
@@ -103,7 +107,7 @@ export default function Menu() {
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div className="row fw-bold border-bottom pb-2 mb-2">
                   <div className="col-8">
-                    <h4>Cold Coffee</h4>
+                    <h4 className="mb-0">Cold Coffee</h4>
                   </div>
                   <div className="col-2 text-center">Sml</div>
                   <div className="col-2 text-center">Lrg</div>
@@ -149,8 +153,7 @@ export default function Menu() {
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div className="row fw-bold border-bottom pb-2 mb-2">
                   <div className="col-8">
-                    {" "}
-                    <h4>Tea</h4>{" "}
+                    <h4 className="mb-0">Tea</h4>
                   </div>
                   <div className="col-4 text-center"></div>
                 </div>
